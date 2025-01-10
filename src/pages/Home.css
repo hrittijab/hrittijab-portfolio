@@ -1,0 +1,12 @@
+/* Styling for the Home component */
+.home-container {
+    padding: 20px;
+    background-color: #f4f4f4; /* Light gray background */
+    text-align: center;
+  }
+  
+  .home-container h2 {
+    font-size: 28px;
+    color: #333;
+  }
+  

@@ -6,7 +6,7 @@ const Home = () => {
     <div style={{ textAlign: 'center', padding: '20px', fontFamily: 'Arial, sans-serif' }}>
       <h2 style={{ fontSize: '2.5em', color: '#333' }}>Welcome to My Portfolio!</h2>
       <img
-        src={MyPhoto} // Using the imported image here
+        src={MyPhoto} 
         alt="Hrittija Bhattacharjee"
         style={{
           width: '150px',

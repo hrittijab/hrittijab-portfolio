@@ -1,0 +1,12 @@
+/* Styling for the About component */
+.about-container {
+    padding: 20px;
+    background-color: #e0f7fa; /* Light blue background */
+    text-align: center;
+  }
+  
+  .about-container h2 {
+    font-size: 28px;
+    color: #00796b;
+  }
+  
