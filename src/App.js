@@ -20,9 +20,9 @@ function App() {
       <Header />
       <Navbar />
       <Home />
-      <About />
-      <Portfolio />
-      <Contact />
+      <div id="About"><About /></div> {/* Add the correct id here */}
+      <div id="Portfolio"><Portfolio /></div> {/* Add the correct id here */}
+      <div id="Contact"><Contact /></div> {/* Add the correct id here */}
       <Footer />
     </div>
   );
