@@ -6,7 +6,7 @@ const About = () => {
       <h2 style={{ textAlign: "center", color: "#333", fontSize: "2.5em", marginBottom: "20px" }}>About Me</h2>
       
       <p style={{ textAlign: "center", color: "#555", fontSize: "1.2em", marginBottom: "30px" }}>
-        Welcome to my portfolio! Here's a little about me.
+        Here's a little about me.
       </p>
       
       <div style={{ backgroundColor: "#f9f9f9", padding: "20px", borderRadius: "10px", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
@@ -38,7 +38,7 @@ const About = () => {
 
       {/* Skills Section */}
       <div style={{ marginTop: "40px", backgroundColor: "#f9f9f9", padding: "20px", borderRadius: "10px", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
-        <h3 style={{ textAlign: "center", color: "#333", fontSize: "2em", marginBottom: "20px" }}>Skills</h3>
+        <h3 style={{ textAlign: "center", color: "#333", fontSize: "2em", marginBottom: "20px" }}>Skills and Tools</h3>
 
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "20px" }}>
           <div style={{ backgroundColor: "#0077b5", color: "#fff", padding: "15px 25px", borderRadius: "30px", fontSize: "1.2em", width: "200px", textAlign: "center", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", transition: "transform 0.3s ease, box-shadow 0.3s ease" }}>Java</div>
