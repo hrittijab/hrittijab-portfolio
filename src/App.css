@@ -1,14 +1,7 @@
 /* General Layout Styling */
 body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f7f7f7; /* Light background */
+
+  background-color: hsl(294, 32%, 80%); /* Light background */
 }
 
-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh; /* Ensure full-page height */
-}
+

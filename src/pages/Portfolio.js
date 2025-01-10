@@ -36,7 +36,7 @@ const Portfolio = () => {
     },
     {
       title: "Project Management Trainee",
-      date: "2019",
+      date: " June 2019",
       tools: "HTML, CSS, JavaScript, Angular, Selenium",
       description: [
         "Built practical web development skills by creating user interfaces and web components using Angular.",
@@ -64,7 +64,7 @@ const Portfolio = () => {
           >
             <h3 style={{ color: "#0077b5" }}>{project.title}</h3>
             <p style={{ margin: "5px 0", fontStyle: "italic" }}>{project.date}</p>
-            <p><strong>Role:</strong> {project.role}</p>
+            {project.role && <p><strong>Role:</strong> {project.role}</p>} {/* Render only if role exists */}
             <p><strong>Tools & Technologies:</strong> {project.tools}</p>
             <ul>
               {project.description.map((point, idx) => (

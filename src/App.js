@@ -8,6 +8,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 
 // Importing component-specific styles
+import './App.css';
 import './components/Header.css';
 import './components/Navbar.css';
 import './components/Footer.css';
