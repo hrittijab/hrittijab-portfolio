@@ -17,6 +17,20 @@ const About = () => {
         <p><strong>Expected Graduation:</strong> December 2025</p>
         <p><strong>GPA:</strong> 3.27</p>
 
+        {/* Relevant Coursework */}
+        <p><strong>Relevant Coursework:</strong></p>
+        <ul>
+          <li>Data Structures and Algorithms</li>
+          <li>Machine Learning</li>
+          <li>Database Management System</li>
+          <li>Object Oriented Programming</li>
+          <li>Cryptography</li>
+          <li>Software Development</li>
+          <li>Computer Organization and Architecture</li>
+          <li>Artificial Intelligence</li>
+          <li>Operating System</li>
+        </ul>
+
         {/* LinkedIn Link */}
         <p style={{ marginTop: "20px" }}>
           <strong>LinkedIn:</strong> 
