@@ -37,9 +37,9 @@ const Portfolio = () => {
     {
       title: "Project Management Trainee",
       date: " June 2019",
-      tools: "HTML, CSS, JavaScript, Angular, Selenium",
+      tools: "HTML, CSS, JavaScript, React.js, Angular, Selenium",
       description: [
-        "Built practical web development skills by creating user interfaces and web components using Angular.",
+        "Built practical web development skills by creating user interfaces and web components using HTML, CSS, JavaScript, React.js, Angular.",
         "Used Selenium for cross-browser testing.",
       ],
     },

@@ -19,7 +19,7 @@ const Home = () => {
       <h3 style={{ marginTop: '15px', color: '#0077b5' }}>Hrittija</h3>
       <p style={{ marginTop: '10px', color: '#555' }}>
       I am a Computer Science student, passionate about transforming academic knowledge into real-world applications. With a strong foundation in Data Structures, Algorithms, and Machine Learning, I focus on creating impactful software solutions that contribute to organizational growth. I thrive in collaborative environments and am always eager to learn new technologies to enhance my technical skillset.
-      I have proficiency in Java, Python, C, C++, HTML, and CSS for software development. I have experience using Android Studio for mobile app development and am well-versed in Agile methodologies and Waterfall processes. I also possess a strong understanding of database systems such as MongoDB, Firebase, and SQLite, and am skilled in software testing tools like JUnit, Espresso, and Mockito. Additionally, I am familiar with React and passionate about design patterns, debugging, and hardware components.
+      I have proficiency in Java, Python, C, Kotlin, HTML, and CSS for software development. I have experience using Android Studio for mobile app development and am well-versed in Agile methodologies and Waterfall processes. I also possess a strong understanding of database systems such as MongoDB, Firebase, and SQLite, and am skilled in software testing tools like JUnit, Espresso, and Mockito. Additionally, I am familiar with React and passionate about design patterns, debugging, and hardware components.
       </p>
     </div>
   );

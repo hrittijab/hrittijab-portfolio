@@ -52,6 +52,8 @@ const About = () => {
           <div style={{ backgroundColor: "#0077b5", color: "#fff", padding: "15px 25px", borderRadius: "30px", fontSize: "1.2em", width: "200px", textAlign: "center", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", transition: "transform 0.3s ease, box-shadow 0.3s ease" }}>HTML</div>
           <div style={{ backgroundColor: "#0077b5", color: "#fff", padding: "15px 25px", borderRadius: "30px", fontSize: "1.2em", width: "200px", textAlign: "center", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", transition: "transform 0.3s ease, box-shadow 0.3s ease" }}>CSS</div>
           <div style={{ backgroundColor: "#0077b5", color: "#fff", padding: "15px 25px", borderRadius: "30px", fontSize: "1.2em", width: "200px", textAlign: "center", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", transition: "transform 0.3s ease, box-shadow 0.3s ease" }}>JavaScript</div>
+          <div style={{ backgroundColor: "#0077b5", color: "#fff", padding: "15px 25px", borderRadius: "30px", fontSize: "1.2em", width: "200px", textAlign: "center", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", transition: "transform 0.3s ease, box-shadow 0.3s ease" }}>Kotlin</div>
+
         </div>
       </div>
     </div>
