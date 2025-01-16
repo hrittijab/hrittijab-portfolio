@@ -9,12 +9,12 @@ const Home = () => {
         textAlign: 'center',
         padding: '20px',
         fontFamily: 'Arial, sans-serif',
-        backgroundImage: `url(${backgroundImage})`, // Set background image
-        backgroundSize: 'cover', // Makes sure the background covers the entire div
-        backgroundPosition: 'center', // Centers the background image
-        backgroundAttachment: 'fixed', // Keeps the background image in place when scrolling
-        height: '100vh', // Ensures the background covers the whole viewport height
-        color: 'white', // White text for contrast against the background
+        backgroundImage: `url(${backgroundImage})`, 
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center', 
+        backgroundAttachment: 'fixed',
+        height: '100vh', 
+        color: 'white', 
         boxSizing: 'border-box',
       }}
     >
@@ -25,13 +25,9 @@ const Home = () => {
           fontFamily: "'Pacifico', cursive",
           letterSpacing: '2px',
           textShadow: '2px 2px 4px rgba(0,0,0,0.3)',
-          animation: 'fadeIn 1s ease-out, typing 2s steps(30) 1s forwards',
-          whiteSpace: 'nowrap',
-          overflow: 'hidden',
-          display: 'inline-block',
           padding: '20px',
-          border: '4px solid pink', // Pink border around the welcome message
-          borderRadius: '10px', // Rounded corners for the border
+          border: '4px solid pink', 
+          borderRadius: '10px',
         }}
       >
         Welcome to My Portfolio!
@@ -65,15 +61,6 @@ const Home = () => {
           }
           to {
             opacity: 1;
-          }
-        }
-
-        @keyframes typing {
-          from {
-            width: 0;
-          }
-          to {
-            width: 100%;
           }
         }
       `}</style>
