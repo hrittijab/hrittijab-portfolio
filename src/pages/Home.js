@@ -1,23 +1,35 @@
 import React from 'react';
 import MyPhoto from './myPhoto.jpeg';
-import backgroundImage from './background.jpg'; 
+import backgroundImage from './background1.jpeg'; 
+import backgroundBlur from './background1.jpeg'; // LQIP image
 
 const Home = () => {
+  const [imageLoaded, setImageLoaded] = React.useState(false);
+
+  const handleImageLoad = () => setImageLoaded(true);
+
   return (
     <div
       style={{
         textAlign: 'center',
         padding: '20px',
         fontFamily: 'Arial, sans-serif',
-        backgroundImage: `url(${backgroundImage})`, 
-        backgroundSize: 'cover', 
-        backgroundPosition: 'center', 
+        background: imageLoaded ? `url(${backgroundImage})` : `url(${backgroundBlur})`, // Use the blurry image initially
+        backgroundSize: '100% 100%',
+        backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
-        height: '100vh', 
-        color: 'white', 
+        height: '100vh',
+        color: 'white',
         boxSizing: 'border-box',
+        transition: 'background-image 1s ease-out', 
       }}
     >
+      <img
+        src={backgroundImage}
+        alt="Background"
+        style={{ display: 'none' }} 
+        onLoad={handleImageLoad}
+      />
       <h2
         style={{
           fontSize: '3em',
