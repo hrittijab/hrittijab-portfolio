@@ -3,6 +3,39 @@ import React from 'react';
 const Portfolio = () => {
   const projects = [
     {
+      title: "SkillLink – Real-Time Skill Exchange App",
+      date: "April 2025 – May 2025",
+      role: "Full-Stack Developer",
+      tools: "React Native, Spring Boot, AWS (DynamoDB, S3), WebSocket, JWT",
+      description: [
+        "Developed a full-stack mobile app for users to exchange skills, featuring post creation, filters, and real-time chat.",
+        "Implemented secure user authentication with JWT and bcrypt, and session handling with SecureStore.",
+        "Used WebSocket (STOMP) for real-time messaging, storing chat history in AWS DynamoDB.",
+        "Enabled profile picture uploads via AWS S3 integration.",
+        "Designed the UI using React Native with expo-router.",
+        '<a href="https://drive.google.com/file/d/1vJofN8zcPZOiF8oIffu0-snSzbEJfZot/view?usp=drive_link" target="_blank" rel="noopener noreferrer">📽️ Watch Demo</a>',
+        '<a href="https://github.com/hrittijab/SkillLink-backend" target="_blank" rel="noopener noreferrer">🧠 View Backend source on GitHub</a>',
+        '<a href="https://github.com/hrittijab/SkillLink-frontend" target="_blank" rel="noopener noreferrer">🧠 View Frontend source on GitHub</a>',
+
+      ],
+    },
+    {
+      title: "TaskMaster – Cloud-Based To-Do List App",
+      date: "March 2025 – May 2025",
+      role: "Frontend & Backend Developer",
+      tools: "React, Spring Boot, AWS DynamoDB, JWT, REST API",
+      description: [
+        "Built a cloud-integrated task management web app with deadline tracking, filters, and persistent storage.",
+        "Created REST APIs using Spring Boot and integrated them with AWS DynamoDB.",
+        "Implemented authentication using JWT and secure session handling.",
+        "Developed a responsive React UI and deployed the app for public access.",
+        '<a href="https://drive.google.com/file/d/16fsQ2GzppsAkmMwHf390DImAcGtlD2My/view?usp=drive_link" target="_blank" rel="noopener noreferrer">📽️ Watch Demo</a>',
+       '<a href="https://github.com/hrittijab/TaskMaster" target="_blank" rel="noopener noreferrer">🧠 View Source on GitHub</a>',
+
+      ],
+    },
+
+    {
       title: "Event Lottery Application Development",
       date: "October 2024",
       role: "Organizer Features Development",
@@ -12,6 +45,9 @@ const Portfolio = () => {
         "Designed it in an MVC design pattern.",
         "Integrated APIs for fetching and storing details in Firebase.",
         "Used JUnit and Espresso to write unit and UI tests.",
+        '<a href="https://github.com/CMPUT301F24apiary/Hive" target="_blank" rel="noopener noreferrer">🧠 View Source on GitHub</a>',
+
+    
       ],
     },
     {
@@ -36,7 +72,7 @@ const Portfolio = () => {
     },
     {
       title: "Project Management Trainee",
-      date: " June 2019",
+      date: "June 2019",
       tools: "HTML, CSS, JavaScript, React.js, Angular, Selenium",
       description: [
         "Built practical web development skills by creating user interfaces and web components using HTML, CSS, JavaScript, React.js, Angular.",
@@ -64,11 +100,15 @@ const Portfolio = () => {
           >
             <h3 style={{ color: "#0077b5" }}>{project.title}</h3>
             <p style={{ margin: "5px 0", fontStyle: "italic" }}>{project.date}</p>
-            {project.role && <p><strong>Role:</strong> {project.role}</p>} {/* Render only if role exists */}
+            {project.role && <p><strong>Role:</strong> {project.role}</p>}
             <p><strong>Tools & Technologies:</strong> {project.tools}</p>
             <ul>
               {project.description.map((point, idx) => (
-                <li key={idx} style={{ marginBottom: "8px" }}>{point}</li>
+                <li
+                  key={idx}
+                  style={{ marginBottom: "8px" }}
+                  dangerouslySetInnerHTML={{ __html: point }}
+                />
               ))}
             </ul>
           </div>

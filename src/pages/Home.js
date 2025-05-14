@@ -8,45 +8,53 @@ const Home = () => {
         textAlign: 'center',
         padding: '20px',
         fontFamily: 'Arial, sans-serif',
-        height: '100vh', // Full height of the page
-        color: 'black', // Text color
+        height: '100vh',
         boxSizing: 'border-box',
+        color: '#1a1a1a',
       }}
     >
       <h2
         style={{
-          fontSize: '3em',
-          color: '#333', // Dark color for better readability
+          fontSize: '2.8em',
+          color: '#2c2c2c',
           fontFamily: "'Pacifico', cursive",
-          letterSpacing: '2px',
-          textShadow: '2px 2px 4px rgba(0,0,0,0.3)',
-          padding: '20px',
-          border: '4px solid pink',
-          borderRadius: '10px',
+          letterSpacing: '1.5px',
+          textShadow: '1px 1px 3px rgba(0,0,0,0.2)',
+          padding: '15px',
+          border: '4px solid #f9b6c0',
+          borderRadius: '12px',
+          backgroundColor: '#fff0f3',
         }}
       >
-        Welcome to My Portfolio!
+        Hello, I'm Hrittija!
       </h2>
+
       <img
         src={MyPhoto}
         alt="Hrittija Bhattacharjee"
         style={{
-          width: '150px',
-          height: '150px',
+          width: '160px',
+          height: '160px',
           borderRadius: '50%',
           marginTop: '20px',
-          border: '2px solid #0077b5',
+          border: '3px solid #0077b5',
         }}
       />
-      <h3 style={{ marginTop: '15px' }}>Hrittija</h3>
-      <p style={{ marginTop: '10px' }}>
-        I am a Computer Science student, passionate about transforming academic knowledge into real-world applications.
-        With a strong foundation in Data Structures, Algorithms, and Machine Learning, I focus on creating impactful
-        software solutions that contribute to organizational growth. I thrive in collaborative environments and am
-        always eager to learn new technologies to enhance my technical skillset.
-        I have a strong foundation in Python, Java, and C. I have also learned C++ and Kotlin. Additionally, I have
-        gained web development skills including HTML, CSS, and JavaScript. I am well-versed in Agile methodologies and
-        Waterfall processes and possess a strong understanding of database systems.
+
+      <h3 style={{ marginTop: '20px', fontSize: '1.6em', color: '#0077b5' }}>
+        Aspiring Software Developer | Problem Solver | Lifelong Learner
+      </h3>
+
+      <p style={{ marginTop: '20px', maxWidth: '750px', margin: 'auto', fontSize: '1.1em', lineHeight: '1.7' }}>
+        I'm a Computer Science student with a love for building things that matter. Whether it's an app to simplify daily
+        tasks or a full-stack project to connect people — I thrive on transforming ideas into working software.
+        <br /><br />
+        I'm especially passionate about learning new technologies and applying them to real-world problems. My experience spans 
+        languages like <strong>Python, Java, C and JavaScript</strong>, and full-stack work with 
+        <strong> React, Spring Boot, AWS</strong>, and <strong>PostgreSQL, DynamoDB, MongoDB, Firebase</strong>.
+        <br /><br />
+        Outside of coding, I enjoy mentoring, hackathons, and contributing to communities that empower youth in tech. 
+        I'm constantly exploring new domains like machine learning and cloud computing, and I believe that curiosity + consistency = growth 🚀.
       </p>
     </div>
   );
