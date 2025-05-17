@@ -14,8 +14,8 @@ const About = () => {
         <p><strong>Degree:</strong> Bachelor of Science</p>
         <p><strong>Major:</strong> Computer Science</p>
         <p><strong>Minor:</strong> Mathematics</p>
-        <p><strong>Expected Graduation:</strong> December 2025</p>
-        <p><strong>GPA:</strong> 3.27</p>
+        <p><strong>Expected Graduation:</strong> June 2026</p>
+        <p><strong>GPA:</strong> 3.23</p>
 
         {/* Relevant Coursework */}
         <p><strong>Relevant Coursework:</strong></p>

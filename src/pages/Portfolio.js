@@ -3,6 +3,17 @@ import React from 'react';
 const Portfolio = () => {
   const projects = [
     {
+      title: "Freelance Web Development",
+      date: "Ongoing",
+      role: "Self-Employed Web Developer",
+      tools: "HTML, CSS, JavaScript, GitHub, Netlify",
+      description: [
+        "Designed and deployed responsive websites for small business clients to improve their online presence.",
+        "Built clean, mobile-friendly layouts with client-specific content and branding.",
+        "Deployed websites using Netlify and assisted clients with custom domain setup and site handoff.",
+      ],
+    },
+    {
       title: "SkillLink – Real-Time Skill Exchange App",
       date: "April 2025 – May 2025",
       role: "Full-Stack Developer",
@@ -16,7 +27,6 @@ const Portfolio = () => {
         '<a href="https://drive.google.com/file/d/1vJofN8zcPZOiF8oIffu0-snSzbEJfZot/view?usp=drive_link" target="_blank" rel="noopener noreferrer">📽️ Watch Demo</a>',
         '<a href="https://github.com/hrittijab/SkillLink-backend" target="_blank" rel="noopener noreferrer">🧠 View Backend source on GitHub</a>',
         '<a href="https://github.com/hrittijab/SkillLink-frontend" target="_blank" rel="noopener noreferrer">🧠 View Frontend source on GitHub</a>',
-
       ],
     },
     {
@@ -30,11 +40,9 @@ const Portfolio = () => {
         "Implemented authentication using JWT and secure session handling.",
         "Developed a responsive React UI and deployed the app for public access.",
         '<a href="https://drive.google.com/file/d/16fsQ2GzppsAkmMwHf390DImAcGtlD2My/view?usp=drive_link" target="_blank" rel="noopener noreferrer">📽️ Watch Demo</a>',
-       '<a href="https://github.com/hrittijab/TaskMaster" target="_blank" rel="noopener noreferrer">🧠 View Source on GitHub</a>',
-
+        '<a href="https://github.com/hrittijab/TaskMaster" target="_blank" rel="noopener noreferrer">🧠 View Source on GitHub</a>',
       ],
     },
-
     {
       title: "Event Lottery Application Development",
       date: "October 2024",
@@ -46,8 +54,6 @@ const Portfolio = () => {
         "Integrated APIs for fetching and storing details in Firebase.",
         "Used JUnit and Espresso to write unit and UI tests.",
         '<a href="https://github.com/CMPUT301F24apiary/Hive" target="_blank" rel="noopener noreferrer">🧠 View Source on GitHub</a>',
-
-    
       ],
     },
     {
@@ -84,7 +90,7 @@ const Portfolio = () => {
   return (
     <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
       <h2 style={{ color: "#333", textAlign: "center" }}>My Portfolio</h2>
-      <p style={{ textAlign: "center", color: "#555" }}>Here are some of my projects:</p>
+      <p style={{ textAlign: "center", color: "#555" }}>Here are some of my works:</p>
 
       <div>
         {projects.map((project, index) => (

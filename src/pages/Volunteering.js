@@ -2,14 +2,23 @@ import React from 'react';
 
 const Volunteering = () => {
   return (
-    <div className="volunteering-section">
-      <h3>Volunteering</h3>
+    <div className="volunteering-section container py-4">
+      <h3 className="mb-4">Volunteering</h3>
       <ul>
         <li>
-          I supported the Jaago Foundation which is a non profit organization in Bangladesh that focuses on the welfare of underprivileged children, where I was responsible for tutoring children in spoken English. This involved developing lesson plans, creating interactive activities, and helping the children build their confidence in speaking and understanding English. I worked with children from different backgrounds, and my role also included providing emotional support to help them overcome educational barriers.
+          <strong>Jaago Foundation (Bangladesh)</strong> – Tutored underprivileged children in spoken English by designing interactive lesson plans and building their confidence in communication. Also provided emotional support to help them overcome learning barriers.
         </li>
         <li>
-          Volunteered at events such as the Eating Disorder Awareness Program, Mental Health Campaign and natHack(Hackathons)
+          <strong>Eating Disorder Awareness University of Alberta (EDAUA)</strong> – Volunteered at awareness events, helping with outreach, organizing activities, and supporting mental health advocacy.
+        </li>
+        <li>
+          <strong>Canada CyberSTEAM Challenge (C3 STEAM)</strong> – Recruitment Committee Member since January 2025, helping promote youth engagement in interdisciplinary STEM education across Canada.
+        </li>
+        <li>
+          <strong>NeurAlbertaTech (natHACK)</strong> – Volunteered in the food and beverages department during their 2023 hackathon, supporting logistics and hospitality for participants.
+        </li>
+        <li>
+          <strong>BIPOC and Allies Student Association – University of Alberta</strong> – Actively mentor BIPOC students by promoting community engagement, academic success, and inclusivity on campus.
         </li>
       </ul>
     </div>

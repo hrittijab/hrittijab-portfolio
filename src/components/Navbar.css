@@ -1,6 +1,6 @@
 /* Styling for the Navbar */
 nav {
-    background-color: #333; /* Dark background */
+background: linear-gradient(to bottom right, #ffc1cc, #e1bee7, #d1c4e9);
     overflow: hidden; /* Prevent overflow */
   }
   
