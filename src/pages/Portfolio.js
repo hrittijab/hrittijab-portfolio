@@ -59,7 +59,9 @@ const Portfolio = () => {
       "Designed and deployed responsive websites for small business clients to enhance their online presence.",
       "Customized branding, content, and mobile responsiveness based on each client’s needs.",
       "Deployed sites on Netlify.",
-      '<a href="https://shovonenterprise.netlify.app/" target="_blank" rel="noopener noreferrer">🌐 View demo Website by Hrittija</a>',
+      '<a href="https://onroadgarage.netlify.app//" target="_blank" rel="noopener noreferrer">🌐 View a Website by Hrittija</a>',
+            '<a href="https://www.shovonaenterprise.com///" target="_blank" rel="noopener noreferrer">🌐 View another Website by Hrittija</a>',
+
     ],
   },
 
