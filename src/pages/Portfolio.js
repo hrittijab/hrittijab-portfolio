@@ -13,10 +13,9 @@ const Portfolio = () => {
         "Used WebSocket (STOMP) for real-time messaging, storing chat history in AWS DynamoDB.",
         "Enabled profile picture uploads via AWS S3 integration.",
         "Designed the UI using React Native with expo-router.",
-        '<a href="https://drive.google.com/file/d/1vJofN8zcPZOiF8oIffu0-snSzbEJfZot/view?usp=drive_link" target="_blank" rel="noopener noreferrer">📽️ Watch Demo</a>',
+        '<a href="https://youtu.be/l-zmKJVeKeo" target="_blank" rel="noopener noreferrer">📽️ Demo</a>',
         '<a href="https://github.com/hrittijab/SkillLink-backend" target="_blank" rel="noopener noreferrer">🧠 View Backend source on GitHub</a>',
         '<a href="https://github.com/hrittijab/SkillLink-frontend" target="_blank" rel="noopener noreferrer">🧠 View Frontend source on GitHub</a>',
-
       ],
     },
     {
@@ -29,12 +28,10 @@ const Portfolio = () => {
         "Created REST APIs using Spring Boot and integrated them with AWS DynamoDB.",
         "Implemented authentication using JWT and secure session handling.",
         "Developed a responsive React UI and deployed the app for public access.",
-        '<a href="https://drive.google.com/file/d/16fsQ2GzppsAkmMwHf390DImAcGtlD2My/view?usp=drive_link" target="_blank" rel="noopener noreferrer">📽️ Watch Demo</a>',
-       '<a href="https://github.com/hrittijab/TaskMaster" target="_blank" rel="noopener noreferrer">🧠 View Source on GitHub</a>',
-
+        '<a href="https://youtu.be/gwMeH-R-OxE" target="_blank" rel="noopener noreferrer">📽️ Demo</a>',
+        '<a href="https://github.com/hrittijab/TaskMaster" target="_blank" rel="noopener noreferrer">🧠 View Source on GitHub</a>',
       ],
     },
-
     {
       title: "Event Lottery Application Development",
       date: "October 2024",
@@ -46,25 +43,21 @@ const Portfolio = () => {
         "Integrated APIs for fetching and storing details in Firebase.",
         "Used JUnit and Espresso to write unit and UI tests.",
         '<a href="https://github.com/CMPUT301F24apiary/Hive" target="_blank" rel="noopener noreferrer">🧠 View Source on GitHub</a>',
-
-    
       ],
     },
-      {
-    title: "Freelance Web Development",
-    date: "February 2025 – Present",
-    role: "Self-Employed Web Developer",
-    tools: "HTML, CSS, JavaScript, Bootstrap, Netlify",
-    description: [
-      "Designed and deployed responsive websites for small business clients to enhance their online presence.",
-      "Customized branding, content, and mobile responsiveness based on each client’s needs.",
-      "Deployed sites on Netlify.",
-      '<a href="https://onroadgarage.netlify.app//" target="_blank" rel="noopener noreferrer">🌐 View a Website by Hrittija</a>',
-            '<a href="https://www.shovonaenterprise.com///" target="_blank" rel="noopener noreferrer">🌐 View another Website by Hrittija</a>',
-
-    ],
-  },
-
+    {
+      title: "Freelance Web Development",
+      date: "February 2025 – Present",
+      role: "Self-Employed Web Developer",
+      tools: "HTML, CSS, JavaScript, Bootstrap, Netlify",
+      description: [
+        "Designed and deployed responsive websites for small business clients to enhance their online presence.",
+        "Customized branding, content, and mobile responsiveness based on each client’s needs.",
+        "Deployed sites on Netlify.",
+        '<a href="https://onroadgarage.netlify.app/" target="_blank" rel="noopener noreferrer">🌐 View a Website by Hrittija</a>',
+        '<a href="https://www.shovonaenterprise.com/" target="_blank" rel="noopener noreferrer">🌐 View another Website by Hrittija</a>',
+      ],
+    },
     {
       title: "Library Management System",
       date: "March 2023",
