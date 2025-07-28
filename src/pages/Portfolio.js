@@ -1,6 +1,44 @@
+
 import React from 'react';
 
 const Portfolio = () => {
+  const experiences = [
+    {
+      title: "Software Development Intern – Spectrum Engineering Consortium Ltd.",
+      date: "June 2025 – August 2025",
+      role: "Full Stack Developer (e-Government ERP Project)",
+      tools: "Java, Spring Boot, Spring Cloud (Eureka, Config Server), PostgreSQL, REST API",
+      description: [
+        "Enhanced the Inventory/Asset module of the Bangladesh e-Government ERP (GRP) project.",
+        "Implemented microservices-based architecture using Spring Cloud and integrated APIs with PostgreSQL.",
+        "Improved system performance by optimizing database queries and API response times.",
+        "Collaborated with a large development team to ensure seamless integration with other modules.",
+      ],
+    },
+    {
+      title: "Freelance Web Development",
+      date: "February 2025 – Present",
+      role: "Self-Employed Web Developer",
+      tools: "HTML, CSS, JavaScript, Bootstrap, Netlify",
+      description: [
+        "Designed and deployed responsive websites for small business clients to enhance their online presence.",
+        "Customized branding, content, and mobile responsiveness based on client requirements.",
+        "Deployed production-ready websites on Netlify.",
+        '<a href="https://onroadgarage.netlify.app/" target="_blank" rel="noopener noreferrer">🌐 View a Website by Hrittija</a>',
+        '<a href="https://www.shovonaenterprise.com/" target="_blank" rel="noopener noreferrer">🌐 View another Website by Hrittija</a>',
+      ],
+    },
+    {
+      title: "Project Management Trainee",
+      date: "June 2019",
+      tools: "HTML, CSS, JavaScript, React.js, Angular, Selenium",
+      description: [
+        "Built practical web development skills by creating user interfaces and web components using HTML, CSS, JavaScript, React.js, Angular.",
+        "Used Selenium for cross-browser testing.",
+      ],
+    },
+  ];
+
   const projects = [
     {
       title: "SkillLink – Real-Time Skill Exchange App",
@@ -35,7 +73,7 @@ const Portfolio = () => {
     {
       title: "Event Lottery Application Development",
       date: "October 2024",
-      role: "Organizer Features Development",
+      role: "Organizer Features Developer",
       tools: "Java, Android Studio, Firebase, Design Patterns",
       description: [
         "Developed the organizer interface in the Event Lottery application, enabling organizers to create events, manage participant lists, and send notifications.",
@@ -43,19 +81,6 @@ const Portfolio = () => {
         "Integrated APIs for fetching and storing details in Firebase.",
         "Used JUnit and Espresso to write unit and UI tests.",
         '<a href="https://github.com/CMPUT301F24apiary/Hive" target="_blank" rel="noopener noreferrer">🧠 View Source on GitHub</a>',
-      ],
-    },
-    {
-      title: "Freelance Web Development",
-      date: "February 2025 – Present",
-      role: "Self-Employed Web Developer",
-      tools: "HTML, CSS, JavaScript, Bootstrap, Netlify",
-      description: [
-        "Designed and deployed responsive websites for small business clients to enhance their online presence.",
-        "Customized branding, content, and mobile responsiveness based on each client’s needs.",
-        "Deployed sites on Netlify.",
-        '<a href="https://onroadgarage.netlify.app/" target="_blank" rel="noopener noreferrer">🌐 View a Website by Hrittija</a>',
-        '<a href="https://www.shovonaenterprise.com/" target="_blank" rel="noopener noreferrer">🌐 View another Website by Hrittija</a>',
       ],
     },
     {
@@ -78,22 +103,48 @@ const Portfolio = () => {
         "Used Object-Oriented Programming and data structures to create maintainable code with well-defined classes for game components.",
       ],
     },
-    {
-      title: "Project Management Trainee",
-      date: "June 2019",
-      tools: "HTML, CSS, JavaScript, React.js, Angular, Selenium",
-      description: [
-        "Built practical web development skills by creating user interfaces and web components using HTML, CSS, JavaScript, React.js, Angular.",
-        "Used Selenium for cross-browser testing.",
-      ],
-    },
   ];
 
   return (
     <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
       <h2 style={{ color: "#333", textAlign: "center" }}>My Portfolio</h2>
-      <p style={{ textAlign: "center", color: "#555" }}>Here are some of my projects:</p>
+      <p style={{ textAlign: "center", color: "#555" }}>
+        A collection of my professional experience and projects.
+      </p>
 
+      {/* Experience Section */}
+      <h3 style={{ color: "#444", marginTop: "40px" }}>Work Experience</h3>
+      <div>
+        {experiences.map((exp, index) => (
+          <div
+            key={index}
+            style={{
+              border: "1px solid #ddd",
+              borderRadius: "8px",
+              padding: "15px",
+              marginBottom: "20px",
+              backgroundColor: "#f1f1f1",
+            }}
+          >
+            <h3 style={{ color: "#0077b5" }}>{exp.title}</h3>
+            <p style={{ margin: "5px 0", fontStyle: "italic" }}>{exp.date}</p>
+            {exp.role && <p><strong>Role:</strong> {exp.role}</p>}
+            {exp.tools && <p><strong>Tools & Technologies:</strong> {exp.tools}</p>}
+            <ul>
+              {exp.description.map((point, idx) => (
+                <li
+                  key={idx}
+                  style={{ marginBottom: "8px" }}
+                  dangerouslySetInnerHTML={{ __html: point }}
+                />
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+
+      {/* Projects Section */}
+      <h3 style={{ color: "#444", marginTop: "40px" }}>Projects</h3>
       <div>
         {projects.map((project, index) => (
           <div
