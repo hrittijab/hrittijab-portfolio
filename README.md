@@ -1,3 +1,2 @@
 
-First portfolio
-You can view my portfolio live at: https://hrittijab.github.io/hrittijab-portfolio
+First portfolio and it can be visit at: https://hrittijab.github.io/hrittijab-portfolio
